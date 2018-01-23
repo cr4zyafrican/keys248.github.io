@@ -30,6 +30,8 @@ body {
 img{
 	-moz-user-select: none; 
 	pointer-events: none;
+	width: 80%;
+	height: auto;
 }
 h1 {
 	font: 1.6em Verdana, Geneva, sans-serif;
