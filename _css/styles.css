@@ -1,9 +1,5 @@
 html, body {
-	background-image: url(../_images/nazareth.jpg) no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+	background: #36648B; 
 	/*background: #36648B;*/
 	margin: 0;
 }
