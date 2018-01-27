@@ -27,7 +27,7 @@ body {
 .navigation {
 	border-bottom: 1px solid gray;
 }
-.navlist{
+ul.nav{
 	margin-top: 5px;
 	margin-bottom: 5px;
 }
