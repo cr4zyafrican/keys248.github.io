@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5, h6 {
 body {
 	font-family: Verdana, Geneva, sans-serif;
 	font-size: 100%;
-	margin-right: 15%;
+	margin-right: 25%;
 	margin-left: 5%;
 	padding: 2.5% 2.5% 0;
 	background: white;
@@ -57,11 +57,17 @@ body {
 	right: 2%;
 	width: 120px;
 }
-img{
-	-moz-user-select: none; 
-	pointer-events: none;
+img.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 	width: 80%;
 	height: auto;
+	margin-bottom: 10px;
+}
+img {
+	-moz-user-select: none; 
+	pointer-events: none;
 }
 h1 {
 	font: 1.6em Verdana, Geneva, sans-serif;
@@ -69,11 +75,14 @@ h1 {
 	color: #36648B;
 }
 h2 {
-	font: 3.2em Georgia, "Times New Roman", Times, serif;
+	font: 2.5em Georgia, "Times New Roman", Times, serif;
 	margin-bottom: .2em;
 }
 h3 {
 	font-size: 1.2em;
+}
+p.center {
+	text-align: center;
 }
 p {
 	margin-bottom: 1em;
@@ -126,7 +135,6 @@ td, th {
 	text-align: center;
 }
 header h2 {
-	padding-bottom: .2em;
 	border-top: 1px solid gray;
 }
 aside {

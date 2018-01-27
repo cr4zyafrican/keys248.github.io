@@ -4,11 +4,11 @@
 	<meta charset="utf-8">
 	<title>Projects</title>
 	<link href="_css/styles.css" rel="stylesheet" type="text/css">
-	<link href="_images/favicon.png" rel="shortcut icon">
+	<link href="_img/favicon.png" rel="shortcut icon">
 </head>
 <body>
 	<header role="banner">
-		<h1>David's Website</h1>
+		<h1><a href="index" title="Main Page"><img src="_img/keys_logo.png" style="height: 30px; width: auto;" title="Logo"></a> David's Website</h1>
 		<h2>Projects</h2>
 		<nav role="navigation" class="sidenav">
 			<h4>Site Pages</h4>
@@ -27,6 +27,8 @@
 					<dd>Selected landscape photos from hikes and travels.</dd>
 					<dt><a href="#drawn" title="Drawn Views">Drawn Views</a></dt>
 					<dd>Ink and watercolor paintings of various landscape photos I have previously taken.</dd>
+					<dt><a href="#gif" title="Gifs">Animated Gifs</a></dt>
+					<dd>Timelapsed photos made into animated gifs.</dd>
 					<dt><a href="#alexa" title="RPi Alexa">RPi Alexa</a></dt>
 					<dd>Implementing Amazon's cloud-based voice service, Alexa, on a Raspberry Pi.</dd>
 					<dt><a href="#email" title="Automated Email">Automated Email</a></dt>
@@ -44,18 +46,25 @@
 			<section>
 				<h2 id="hunt">Hunt for the World's Best Views</h2>
 				<p>Around 2012 I began an effort to capture landscape views from various hikes and travels. Most of these photos come from hikes in California or my time in New York. Other photos are from travels around the U.S. and  the world. More photos can be found on my tumblr blog at <a href="http://www.best-views.tumblr.com" title="Best Views Tumblr" target="_blank">best-views.tumblr.com</a>.</p>
-				<p><img src="_images/golden_gate.jpg" alt="Golden Gate"><br>A sunset view of the Golden Gate Bridge from Battery Godfrey in San Francisco, California.</p>
-				<p><img src="_images/empire_state.jpg" alt="Empire State"><br>A view of lower Manhattan from the top of the Empire State Building in New York City on a clear summer's day.</p>
-				<p><img src="_images/mcnee_ranch.jpg" alt="Pacific Coast"><br>A beautiful view looking towards the Marin Headlands from McNee Ranch State Park, CA.</p>
-				<p><img src="_images/kings_canyon.jpg" alt="Kings Canyon"><br>Looking down one of the many canyons near Junction View on highway 180 in Kings Canyon National Park, CA.</p>
+				<p class="center"><img class="center" src="_img/golden_gate.jpg" alt="Golden Gate">A sunset view of the Golden Gate Bridge from Battery Godfrey in San Francisco, California.</p>
+				<p class="center"><img class="center" src="_img/empire_state.jpg" alt="Empire State">A view of lower Manhattan from the top of the Empire State Building in New York City on a clear summer's day.</p>
+				<p class="center"><img class="center" src="_img/mcnee_ranch.jpg" alt="Pacific Coast">A beautiful view looking towards the Marin Headlands from McNee Ranch State Park, CA.</p>
+				<p class="center"><img class="center" src="_img/kings_canyon.jpg" alt="Kings Canyon">Looking down one of the many canyons near Junction View on highway 180 in Kings Canyon National Park, CA.</p>
 			</section>
 			<section>
 				<h2 id="drawn">Drawn Views</h2>
 				<p>In order to create meaningful birthday gifts for my friends without spending a lot of money, I decided to make something for them. I chose to draw and watercolor 4 inch by 6 inch framed pieces based on previous photos I had taken that had a connection to the specific friend I was making it for. In this way the piece could be tailored to the specific friend, maintain a minimalist presence, and be built off my previous work. In this project I show the image the piece is based off, the drawing, and the final watercolor. More pieces from this project can be found on my tumblr blog at <a href="http://drawn-views.tumblr.com/" title="Drawn Views Tumblr" target="_blank">drawn-views.tumblr.com</a>.</p>
-				<p><img src="_images/wsp_pic.jpg" alt="Washington Square Park Picture"><br>A view up Fifth Avenue in New York City for my Best Views project.</p>
-				<p><img src="_images/wsp_draw.jpg" alt="Washington Square Park Drawing"><br>The previous photo was then used to make this ink drawing.</p>
-				<p><img src="_images/wsp_color.JPG" alt="Washington Square Park Color"><br>The ink drawing was then watercolored to produce this final piece in its frame.</p>
+				<p class="center"><img class="center" src="_img/wsp_pic.jpg" alt="Washington Square Park Picture">A view up Fifth Avenue in New York City for my Best Views project.</p>
+				<p class="center"><img class="center" src="_img/wsp_draw.jpg" alt="Washington Square Park Drawing">The previous photo was then used to make this ink drawing.</p>
+				<p class="center"><img class="center" src="_img/wsp_color.JPG" alt="Washington Square Park Color">The ink drawing was then watercolored to produce this final piece in its frame.</p>
 			</section>
+			<section>
+				<h2 id="gif">Animated Gifs</h2>
+				<p>During photo shoots I thought it would be interesting to start capturing some timelapses. I decided to present these collected images in the form of animated gifs for easy sharing over the web. I haven't made enough of these to elicit creating a blog for them, but I have my favorite ones shown below.</p>
+				<p class="center"><img class="center" src="_gif/seattle_neumos.gif" alt="Seattle Concert">The band plays in a concert at Neumos, Seattle.</p>
+				<p class="center"><img class="center" src="_gif/ucsf_golden_gate.gif" alt="Inner Sunset">A view looking north over the Inner Sunset neighborhood, San Francisco.</p>
+				<p class="center"><img class="center" src="_gif/noe_valley.gif" alt="Noe Valley">Watching the cars driving through the Noe Valley neighborhood, San Francisco.</p>
+				<p class="center"><img class="center" src="_gif/Mt_Tam_Fog.gif" alt="Mount Tam">The clouds passing over Mt. Tamalpais, California.</p>
 			<section>
 				<h2 id="alexa">RPi Alexa</h2>
 				<p>Access to a basic version of Amazon's Alexa serivce is available for free through Amazon Developer Services. I implemented this tool on my own Raspberry Pi, with a microphone and speaker attached.</p>
@@ -81,7 +90,7 @@
 			</section>
 			<section>
 				<h2 id="pong">Pong</h2>
-				<p>As part of an assignment for one of my easiest computer science courses, we were tasked with creating a very simple Java game using Processing and PApplet tools. I found my game entertaining so anyone interested is free to play with it and it may help them get a better understanding of how Processing and PApplet work. The repository can be found at <a href="https://github.com/KEYS248/pong-papplet" title="Pong PApplet" target="_blank">github.com/KEYS248/pong-papplet</a>.</p>
+				<p>As part of an assignment for one of my earliest computer science courses, we were tasked with creating a very simple Java game using Processing and PApplet tools. I found my game entertaining so anyone interested is free to play with it and it may help them get a better understanding of how Processing and PApplet work. The repository can be found at <a href="https://github.com/KEYS248/pong-papplet" title="Pong PApplet" target="_blank">github.com/KEYS248/pong-papplet</a>.</p>
 			</section>
 			<section>
 				<h2 id="sticky">Sticky</h2>
