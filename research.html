@@ -54,7 +54,8 @@
 			</section>
 			<section>
 				<h2 id="image-analysis-pipeline">Image Analysis Pipeline</h2>
-				<p>Summary of work coming soon...</p>
+				<p>The image analysis pipeline starts with an automated microscope taking and saving images of growing yeast, producing in total a few tens of thousands of images per experiment. These images are transfered from the local lab computer to NYU's High Performance Computing network, where we run software on each image that produces around two hundred data points per image. Occasionally the images encounter errors during the analysis process because they took too long, took too much memory, or some other reason. These images have to be re-run with more time and memory dedicated to them.</p>
+				<p>My work on this project involved improving the code that handles all this communications of images between the local and HPC network. Specifically, I changed Bash scripts to well documented, compartmentalized , and improved Python scripts.</p>
 				<p>The code for the work that was done on this project can be found at <a href="https://github.com/Siegallab/image-analysis-pipeline" title="Image Analysis GitHub" target="_blank">github.com/Siegallab/image-analysis-pipeline</a>.</p>
 			</section>
 			<section>
