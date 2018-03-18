@@ -96,18 +96,18 @@ p.center {
 p {
 	margin-bottom: 1em;
 }
-a {
-	color: rgb(184, 126, 84);
-}
-a:hover {
-	color: rgb(120, 97, 55);
-}
 a.page_head{
 	text-decoration: none;
 	color: #36648B;
 }
 a.page_head:hover {
 	color: #36648B;
+}
+a {
+	color: rgb(184, 126, 84);
+}
+a:hover {
+	color: rgb(120, 97, 55);
 }
 pre {
 	font-size: 1.4em;
