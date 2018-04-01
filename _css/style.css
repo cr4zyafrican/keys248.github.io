@@ -1,5 +1,5 @@
 html, body {
-	background: #36648B; 
+	background: #36648B;
 	/*background: #36648B;*/
 	margin: 0;
 }
@@ -75,7 +75,7 @@ img.left {
 	margin-right: 10px;
 }
 img {
-	-moz-user-select: none; 
+	-moz-user-select: none;
 	pointer-events: none;
 }
 h1 {
